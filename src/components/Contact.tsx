@@ -10,7 +10,7 @@ const Contact = () => (
       <div className="grid md:grid-cols-2 gap-8">
         <div className="space-y-6">
           <div className="flex gap-4">
-            <MapPin className="w-5 h-5 text-primary mt-1 shrink-0 cursor-pointer" />
+            <MapPin className="w-5 h-5 text-primary mt-1 shrink-0" />
             <div className="font-poppins text-sm text-foreground/80 leading-relaxed">
               <p className="font-medium text-foreground mb-1">Crème & Co.</p>
               Ground Floor, Rajpath Complex<br />
@@ -26,7 +26,7 @@ const Contact = () => (
           </div>
 
           <div className="flex gap-4 items-center">
-            <Mail className="w-5 h-5 text-primary shrink-0 cursor-pointer" />
+            <Mail className="w-5 h-5 text-primary shrink-0" />
             <span className="font-poppins text-sm text-foreground/80 cursor-pointer">contact@cremeandco.in</span>
           </div>
         </div>
