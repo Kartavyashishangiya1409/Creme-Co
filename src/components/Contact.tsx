@@ -22,12 +22,12 @@ const Contact = () => (
 
           <div className="flex gap-4 items-center">
             <Phone className="w-5 h-5 text-primary shrink-0" />
-            <span className="font-poppins text-sm text-foreground/80">+91 98765 43210</span>
+            <span className="font-poppins text-sm text-foreground/80 cursor-pointer">+91 98765 XXXXX</span>
           </div>
 
           <div className="flex gap-4 items-center">
             <Mail className="w-5 h-5 text-primary shrink-0" />
-            <span className="font-poppins text-sm text-foreground/80">contact@cremeandco.in</span>
+            <span className="font-poppins text-sm text-foreground/80 cursor-pointer">contact@cremeandco.in</span>
           </div>
         </div>
 
